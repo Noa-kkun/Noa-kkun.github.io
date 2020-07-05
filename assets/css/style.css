@@ -13,7 +13,9 @@ body {
   color: #272829;
   font-size: 130%;
 }
-
+.high{
+  background-color: #18d26e;
+}
 .padd{
   padding-top: 20%;
   padding-right: 50%;
