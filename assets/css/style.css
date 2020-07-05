@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -81,8 +82,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
-}
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);}
 
 #preloader:before {
   content: "";
@@ -90,8 +91,8 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #0563bb;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border-top-color: #fff0;
+  border-bottom-color: #fff0;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -152,9 +153,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   #main {
     margin-left: 0px;
-    background-color: #1fd1f9;
-    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
-
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   }
 }
 
@@ -210,8 +210,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background-color: #1fd1f9;
-  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
