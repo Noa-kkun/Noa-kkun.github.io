@@ -17,12 +17,13 @@ body {
   background-color: #18d26e;
 }
 .padd{
-  padding-top: 30%;
-  padding-left: 35%;
+  /* background-color: #0563bb; */
+  margin-right: 65.7%;
+  /* padding-left: 35%; */
   /* color:rgb(0,255,255); */
 }
 .padd a{
-  /* padding-top: 30%; */
+  padding: 3%;
   /* padding-left: 35%; */
   color:#ff2400;
 }
