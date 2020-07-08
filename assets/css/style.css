@@ -361,7 +361,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title p {
-  color: #fff;
+  color: rgb(100, 59, 212);
 }
 
 
@@ -372,7 +372,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #fff;
+  color: rgb(100, 59, 212);
+
 }
 
 .section-title h2::before {
@@ -407,7 +408,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #ffffff;
+  color: rgb(100, 59, 212);
+  ;
 }
 
 .about .content ul {
@@ -417,7 +419,8 @@ section {
 
 .about .content ul li {
   padding-bottom: 10px;
-  color: #fff;
+  color: rgb(100, 59, 212);
+
 }
 
 .about .content ul i {
@@ -484,7 +487,8 @@ section {
   display: block;
   font-weight: 600;
   font-family: 'Bahnschrift';
-  color: #fff;
+  color: rgb(100, 59, 212);
+
 }
 
 .skills .progress .skill .val {
@@ -512,7 +516,8 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: rgb(100, 59, 212);
+
 }
 
 .resume .resume-item {
@@ -961,14 +966,16 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #fff;
+  color: rgb(100, 59, 212);
+
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #fff;
+  color: rgb(100, 59, 212);
+
 }
 
 .contact .info .email, .contact .info .phone {
@@ -977,7 +984,8 @@ section {
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #0563bb;
-  color: #fff;
+  color: rgb(100, 59, 212);
+
 }
 
 .contact .php-email-form {
