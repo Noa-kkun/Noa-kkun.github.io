@@ -517,7 +517,12 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(100, 59, 212);
-
+}
+.resume em {
+  color: rgb(100, 59, 212);
+}
+.resume ul li {
+  color: rgb(100, 59, 212);
 }
 
 .resume .resume-item {
