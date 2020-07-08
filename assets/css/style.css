@@ -154,8 +154,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   #main {
     margin-left: 0px;
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-color: #48dbfb;
+    background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
   }
 }
 
