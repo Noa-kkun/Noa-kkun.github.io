@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 # Preloader
 --------------------------------------------------------------*/
 .lds-hourglass {
-  display: inline-block;
+  display: block;
   position: relative;
   width: 80px;
   height: 80px;
