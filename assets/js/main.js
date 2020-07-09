@@ -8,11 +8,7 @@
   "use strict";
 
   // Preloader
-  $(document).ajaxStart(function(){
-    $(".lds-hourglass").removeClass('hide');
-}).ajaxStop(function(){
-    $(".lds-hourglass").addClass('hide');
-});
+
 
   // Hero typed
   if ($('.typed').length) {
