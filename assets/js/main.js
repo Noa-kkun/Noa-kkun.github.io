@@ -8,9 +8,11 @@
   "use strict";
 
   // Preloader
-  
-document.getElementById("lds-hourglass").style.display = "none";
-
+  $(document).ajaxStart(function(){
+    $(".lds-hourglass").removeClass('hide');
+}).ajaxStop(function(){
+    $(".lds-hourglass").addClass('hide');
+});
 
   // Hero typed
   if ($('.typed').length) {
