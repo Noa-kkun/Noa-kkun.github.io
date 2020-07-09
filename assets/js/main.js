@@ -8,7 +8,8 @@
   "use strict";
 
   // Preloader
-  window.onload = function(){ document.getElementById(".lds-hourglass").style.display = "none" }
+  
+document.getElementById("lds-hourglass").style.display = "none";
 
 
   // Hero typed
