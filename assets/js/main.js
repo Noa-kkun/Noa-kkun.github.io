@@ -7,9 +7,6 @@
 !(function($) {
   "use strict";
 
-  // Preloader
-
-
   // Hero typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
