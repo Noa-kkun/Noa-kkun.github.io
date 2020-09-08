@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+background-image: linear-gradient(315deg, #414141 0%, #000000 74%);
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -146,8 +146,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   #main {
     margin-left: 0px;
-    background-color: #48dbfb;
-    background-image: linear-gradient(315deg, rgba(144, 200, 252, 0.133) 0%, #d3d3d3 74%);
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000 0%, #111 74%);
   }
 }
 
@@ -397,6 +397,16 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.abo{
+  box-shadow: 0 0 15px rgb(255,255,255);
+}
+.abo:hover{
+  box-shadow: 0 0 50px rgb(100, 59, 212);
+}
+.aboImg:hover{
+  box-shadow: 0 0 50px rgb(100, 59, 212);
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -464,8 +474,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+.ski{
+  box-shadow: 0 0 15px rgb(255,255,255);
+}
+.ski:hover{
+  box-shadow: 0 0 50px rgb(100, 59, 212);
+}
+.ski:hover .progress-bar {
+  background-color:  rgb(100, 59, 212);
+}
 .skills .progress {
   height: 50px;
   display: block;
@@ -942,6 +961,12 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.cont{
+  box-shadow: 0 0 15px rgb(255,255,255);
+}
+.cont:hover{
+  box-shadow: 0 0 50px rgb(100, 59, 212);
+}
 .contact .info {
   width: 100%;
   background: #0000;
