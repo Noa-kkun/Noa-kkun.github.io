@@ -28,15 +28,12 @@
   <!-- LinkedIn JS File -->
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <script>
-  var myVar;
-  
-  function myFunction() {
-    myVar = setTimeout(showPage, 300);
-  }
-  
-  function showPage() {
-    document.getElementById("preloader").style.display = "none";
-  }
+  $(document).load(function(){
+    $('#preloader').show();
+  })
+  $(document).ready(function(){
+    $('#preloader').hide();
+  })
   </script>
   
   <!-- =======================================================
